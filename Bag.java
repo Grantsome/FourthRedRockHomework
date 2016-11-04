@@ -1,8 +1,7 @@
-﻿import java.util.Iterator;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.*;
 import java.util.Scanner;
-
 
 import static java.lang.System.exit;
 
@@ -50,6 +49,7 @@ abstract  class Bag implements LikeSet{
           Scanner input = new Scanner(System.in);
           System.out.println("Please Input The deleted Element Index And Press Enter:(‘-1’ Means Don't Input),But this Time won't be deleted!:");
           int index = input.nextInt();
+          //index = 0;
           do {
               System.out.println("Please Input The deleted Element Index And Press Enter:(‘-1’(Three Time is Ok!) Means Don't Input)");
               index = input.nextInt();
