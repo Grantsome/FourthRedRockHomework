@@ -1,3 +1,4 @@
+
 abstract interface LikeSet{
 	 abstract void Insert();
 	 abstract void Delete();
